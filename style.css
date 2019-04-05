@@ -1,0 +1,42 @@
+
+@import url("https://fonts.googleapis.com/css?family=Calibri:300,400,700,800,900");
+
+body{
+	font-family:Calibri;
+	font-size: 16px;
+	color: 48 48 48;
+	font-weight: 300;
+	margin: 10px;
+	}
+h1{
+	font-size: 28px;
+	color: black;
+}
+h2{
+	font-size: 20px;
+	color: #da70d6;
+	font-weight: lighter;
+}
+.photocv.jpeg{
+	size: 50px;
+	border-radius: 50%
+}
+	
+img{
+	size: 30px;
+}
+
+.education{
+	display: flex;
+	justify-content: space-around;
+} 
+.education h2{
+	margin: 50px;
+} 
+.bannière h1{
+	text-align: center;
+}
+.chef{
+	display: flex;
+	justify-content: center;
+}
