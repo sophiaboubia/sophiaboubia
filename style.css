@@ -17,15 +17,12 @@ h2{
 	color: #da70d6;
 	font-weight: lighter;
 }
-.photocv.jpeg{
+.photocv img{
 	size: 50px;
-	border-radius: 50%
+	border: solid;
+	border-radius: 50%;
+	align-content: center;
 }
-	
-img{
-	size: 30px;
-}
-
 .education{
 	display: flex;
 	justify-content: space-around;
@@ -40,3 +37,60 @@ img{
 	display: flex;
 	justify-content: center;
 }
+.experience{
+	display: flex;
+	justify-content: space-around;
+} 
+.experience h2{
+	margin: 50px;
+} 
+.competences img{
+	width: 30px;
+	height: 18px;
+}
+.loisirs img{
+	width: 30px;
+	height: 18px;
+}
+.certifications img{
+	width: 30px;
+	height: 30px;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 10% 10% 10% 10% 10% 10%;
+}
+.audencia{
+	grid-row: 1 / span 2;
+	grid-column: 1/ span 1
+}
+.prepa{
+	grid-row: 1 / span 2;
+	grid-column: 1/ span 1
+}
+.lycee{
+	grid-row: 1 / span 2;
+	grid-column: 1/ span 1
+}
+.hmn7{
+	grid-row: 1 / span 3;
+	grid-column: 1/ span 1
+}
+.guerlain{
+	grid-row: 1 / span 3;
+	grid-column: 1/ span 1
+}
+.dior{
+	grid-row: 1 / span 3;
+	grid-column: 1/ span 1
+}
+
+
+
+
+
+
+
+
