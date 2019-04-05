@@ -4,7 +4,7 @@
 body{
 	font-family:Calibri;
 	font-size: 16px;
-	color: 48 48 48;
+	color: grey;
 	font-weight: 300;
 	margin: 10px;
 	}
@@ -19,17 +19,26 @@ h2{
 }
 .photocv img{
 	size: 50px;
-	border: solid;
+	border: outset;
 	border-radius: 50%;
-	align-content: center;
 }
 .education{
 	display: flex;
 	justify-content: space-around;
+	box-shadow: 5px 5px 6px grey;
 } 
 .education h2{
 	margin: 50px;
 } 
+.pitch1{
+	width: 300px;
+}
+.pitch2{
+	width: 300px;
+}
+.pitch3{
+	width: 300px;
+}
 .bannière h1{
 	text-align: center;
 }
@@ -44,13 +53,45 @@ h2{
 .experience h2{
 	margin: 50px;
 } 
+.resume1{
+	width: 300px;
+}
+.resume2{
+	width: 300px;
+}
+.resume3{
+	width: 300px;
+}
+.competences{
+	display: flex;
+	justify-content: space-around;
+	box-shadow: 5px 5px 6px grey;
+	vertical-align: center;
+}
+.competences p:hover{
+	color: #da70d6
+}
+
 .competences img{
 	width: 30px;
 	height: 18px;
 }
+.loisirs{
+	display: flex;
+	justify-content: space-around;
+	box-shadow: 5px 5px 6px grey;
+	vertical-align: center;
+	height: 80px;
+}
 .loisirs img{
 	width: 30px;
-	height: 18px;
+	height: 30px;
+}
+.livre {
+	border: solid;
+	border-radius: 50%;
+	border-color: black;
+	border height: 2px;
 }
 .certifications img{
 	width: 30px;
@@ -62,29 +103,28 @@ h2{
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 10% 10% 10% 10% 10% 10%;
 }
-.audencia{
-	grid-row: 1 / span 2;
-	grid-column: 1/ span 1
-}
-.prepa{
-	grid-row: 1 / span 2;
-	grid-column: 1/ span 1
-}
-.lycee{
-	grid-row: 1 / span 2;
-	grid-column: 1/ span 1
-}
 .hmn7{
-	grid-row: 1 / span 3;
-	grid-column: 1/ span 1
+	box-shadow: 5px 5px 6px grey;
 }
 .guerlain{
-	grid-row: 1 / span 3;
-	grid-column: 1/ span 1
+	box-shadow: 5px 5px 6px grey;
 }
 .dior{
-	grid-row: 1 / span 3;
-	grid-column: 1/ span 1
+	box-shadow: 5px 5px 6px grey;
+}
+.langues, .logiciels, .certifications {
+	color: grey;
+	font-size:22px;
+	font-weight: bold;
+	text-align: center;
+}
+.TOEIC , .TOEFL{
+	font-size: 16px;
+	font-weight: lighter;
+}
+.infos{
+	display: flex;
+	justify-content: flex-start;
 }
 
 
