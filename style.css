@@ -9,16 +9,20 @@ body{
 	margin: 10px;
 	}
 .page{
-	background-image: url();
+	background-image: url(images/3D.jpg);
 	background-repeat: no-repeat;
 	background-position: top center;
+	background-size: 100%;
 }
 
 h1{
-	font-size: 36px;
-	color: black;
+	font-size: 44px;
+	color: white;
 	font-weight: bold;
 	text-align: center;
+}
+.chefchef{
+	color: white;
 }
 h2{
 	font-size: 36px;
